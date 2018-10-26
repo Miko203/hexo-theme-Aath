@@ -1,13 +1,21 @@
 footer {
-  .copyright {
+  .powered {
     @include basic;
     display: flex;
-    line-height: 3em;
+    line-height: 2em;
+    margin-bottom: 1em;
     color: #BABABA;
     a {
       &:hover {
         color: $hover-color;
       }
     }
+  }
+  .copyright {
+    @include basic;
+    display: flex;
+    line-height: 1em;
+    margin-top: 1em;
+    color: #BABABA;
   }
 }
