@@ -610,3 +610,18 @@
     }
   }
 }
+
+
+@media (max-width: $breakpoint-phone) {
+  #post {
+    h1 {
+      font-size: 1.65em;
+    }
+    h2 {
+      font-size: 1.4em;
+    }
+    h3 {
+      font-size: 1.2em
+    }
+  }
+}

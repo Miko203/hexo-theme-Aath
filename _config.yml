@@ -1,13 +1,13 @@
 
 # html lang
-language: en
+language: zh-CN
 
 # main menu navigation
 menu:
-  Home: /
-  About: /about
-  Archives: /archives
-  Tags: /tags
+  主页: /
+  标签: /tags
+  所有文章: /archives
+  # About: /about
 
 # Miscelaneous
 favicon: /favicon.ico

@@ -16,7 +16,7 @@
         }
         h3 {
           margin: 0 0 5px;
-          font-size: 25px;
+          font-size: 22px;
           font-weight: 700;
           transition: $transition;
         }
@@ -152,6 +152,26 @@
     .page-next {
       text-align: right;
       border: 1px solid #ddd;
+    }
+  }
+}
+
+
+@media (max-width: $breakpoint-phone) {
+  #index {
+    .posts-list {
+      section {
+        a {
+          h3 {
+            font-size: 1.45em;
+          }
+        }
+      }
+    }
+    aside {
+      > div {
+        margin-bottom: 5px;
+      }
     }
   }
 }

@@ -7,7 +7,7 @@ $animation-time: 0.3s;
 
 @mixin basic {
   max-width: 1200px;
-  padding: 0 8px;
+  padding: 0 16px;
   margin: 0 auto;
 }
 
@@ -57,6 +57,20 @@ main {
   display: flex;
   @include basic;
 }
+
+@media (max-width: $breakpoint-phone) {
+  .full-width {
+    padding: 0;
+  }
+}
+
+@media (max-width: $breakpoint-desktop) {
+  .full-width {
+    
+  }
+}
+
+
 
 @import 'css/_partical/categories';
 @import 'css/_partical/footer';
